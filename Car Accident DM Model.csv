@@ -1,0 +1,55 @@
+﻿Business Understanding
+"Weather conditions can affect a drivers visibility and the likelihood of getting into an accident. The objective of this plan is to determine the severity of a crash at various intersections throughout Seattle, Washington based on the weather conditions from 2004-2020. "
+
+Data Understanding
+"The dataset that will be used is from SDOT Traffic Management Division, Traffic Records Group. To train the model the following attributes will be used:"
+SEVERITYCODE
+X
+Y
+OBJECTID
+INCKEY
+COLDETKEY
+REPORTNO
+STATUS
+ADDRTYPE
+INTKEY
+LOCATION
+EXCEPTRSNCODE
+EXCEPTRSNDESC
+SEVERITYCODE
+SEVERITYDESC
+COLLISIONTYPE
+PERSONCOUNT
+PEDCOUNT
+PEDCYLCOUNT
+VEHCOUNT
+INCDATE
+INCDTTM
+JUNCTIONTYPE
+SDOT_COLCODE
+SDOT_COLDESC
+INATTENTIONIND
+UNDERINFL
+WEATHER
+ROADCOND
+LIGHTCOND
+PEDROWNOTGRNT
+SDOTCOLNUM
+SPEEDING
+ST_COLCODE
+ST_COLDESC
+SEGLANEKEY
+CROSSWALKKEY
+HITPARKEDCAR
+
+Data Preparation
+"Data preparation will be performed to balance the labeled data, transform data, fill missing data, and clean the dataset prior to finalizing the dataset to be fed into the modeling tools."
+
+Modeling
+The model will be built using multiple machine learning models
+
+Evaluation
+The model will be evaluated to ensure the business or the applications' objectives are achieved.
+
+Deployment
+"The model will be deployed so the customers or end-users can utilize the model in different ways, such as, whether or not to drive during a certain time based on the weather conditions. "
