@@ -1,0 +1,7 @@
+The dataset that will be used is from SDOT Traffic Management Division, Traffic Records Group of Seattle, Washington. We will analyze the effects of whether 
+conditions on accidents from 2004-2020. To train the model the following attributes that will be used consist of the accident location and address type, severity, 
+collision type, number of people involved in the accident, number of vehicles involved, weather conditions, the date and time, road conditions, fatalities, 
+crosswalks, and speed.
+
+Data preparation will be performed to balance the labeled data, transform data, fill missing data, and clean the dataset prior to finalizing the dataset to be 
+fed into the modeling tools.
